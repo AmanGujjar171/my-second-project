@@ -1,0 +1,209 @@
+*{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+}
+
+.header{
+        background-color: #14274A;
+        height: 35vh;
+
+}
+.navbar-heading{
+        color: white;
+        height: 20vh;
+        font-size: 3rem;
+        font-weight: 900;
+        display: grid;
+        place-items: center;
+}
+.navbar {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        z-index: 1;
+}
+
+.navbar div {
+        border: none;
+        border-radius: 0% 0% 30% 30%;
+        width: 15vw;
+        height: 13vh;
+        background-color: #E0B973;
+        color: #14274A;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 0.2%;
+}
+
+.navbar ul {
+        width: 40vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+}
+
+.navbar ul li {
+        list-style: none;
+        color: white;
+        font-size: large;
+}
+.navbar ul li a{
+        color: white;
+        text-decoration: none;
+        font-weight: bolder;
+}
+.navbar ul li a:hover{
+        color: #E0B973;
+        text-decoration: underline;
+}
+
+/* navbar is completed */
+
+/* body is started */
+
+.body-design{
+        height: 100vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+}
+
+.body-heading{
+        height: 35vh;
+        width: 28vw;
+        font-size: x-large;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+}
+
+.view-map{
+        display: flex;
+        align-items: center;
+        
+}
+.body-input{
+        height: 60vh;
+        width: 30vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+}
+.body-input input{
+        height: 6vh;
+
+}
+.body-input textarea{
+        height: 25vh;
+}
+
+.body-input p{
+        width: 8vw;
+        display: grid;
+        place-items: center;
+        height: 7vh;
+        border-radius: 10px;
+        margin-left: 20vw;
+        background-color: #E0B973;
+        color: white;
+        font-weight: 600;
+}
+
+
+/* footer is started */
+
+.footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #14274A;
+        color: white;
+        height: 30vh;
+}
+
+.heading1 {
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+}
+
+.heading1 h6 {
+        text-align: center;
+        width: 10vh;
+        font-weight: 100;
+}
+
+
+.heading2 {
+        height: 12vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+}
+
+.heading2{
+        font-size: larger;
+}
+
+.heading3{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: space-between;
+        height: 12vh;
+        width: 10vw;
+}
+
+.facebook{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+}
+.twitter{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;        
+}
+.instagram{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+}
+
+.heading4{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between ;
+        height: 12vh;
+}
+.input-footer {
+        display: flex;
+        align-items: center;
+        width: 22vw;
+        height: 5vh;
+        background-color: #E0B973;
+        border-radius: 5px;
+}
+.input-footer input{
+        border: 2px solid #E0B973;
+        background-color: #14274A;
+        height: 5vh;
+        width: 16vw;
+}
+.input-footer input::placeholder{
+        color: white;
+        padding-left: 20px;
+        font-weight: bold;
+}
+.input-footer p{
+        font-size: x-large;
+        margin-left: 7%;
+        color: #14274A;       
+}
+
+/* footer is completed */
